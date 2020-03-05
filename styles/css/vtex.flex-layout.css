@@ -1,0 +1,66 @@
+  .flexRow--deals {
+    background-color: #a7afbd;
+    padding: 14px 0px;
+  }
+
+  .flexRow--deals .stretchChildrenWidth {
+    align-items: center;
+  }
+
+  .flexRow--deals .flexCol {
+    align-items: center;
+  }
+
+  .flexCol--filterCol {
+    max-width: 500px;
+    min-width: 230px;
+  }
+
+  .flexCol--productCountCol {
+    align-items: flex-start;
+  }
+
+  .flexCol--orderByCol {
+    align-items: flex-end;
+  }
+
+  .flexCol--orderByMobileCol {
+    width: 42%;
+  }
+
+  .flexCol--filterMobileCol {
+    width: 38%;
+  }
+
+  .flexCol--switcherMobileCol {
+    width: 20%;
+  }
+
+  /* .flexCol--productInfo :global(.t-heading-4){
+    background: #b3b3b3;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  } */
+  
+  .flexColChild--productInfo .stretchChildrenWidth{
+    justify-content: left;
+  }
+
+  .flexColChild--productInfo :global(.vtex-button){
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .flexColChild--institutionalCol{
+    height: auto !important;
+  }
+
+@media only screen and (max-width: 640px) {
+  .flexRow--rowDeals{
+    display: none;
+  }
+
+}

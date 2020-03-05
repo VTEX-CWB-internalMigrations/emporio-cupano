@@ -1,0 +1,246 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.searchBarIcon{
+  color: #de1c0e;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #AE0F0F;
+  margin: 0 auto;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  color: #fff;
+  max-width: 500px;
+  display: inline-block;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.imageElement--promoImage{
+  display: none;
+}
+
+.sellingPrice{
+  font-weight: 400;
+  color: #cf872e;
+  font-family: Impact;
+  font-size: 20px;
+}
+
+.listPriceLabel , .listPriceValue{
+  color: #AE0F0F;
+  font-weight: bold;
+}
+
+.newsletter .container{
+  padding: 20px;
+}
+
+.newsletter .label{
+  font-size: 17px;
+}
+
+.newsletter .inputGroup{
+  border-bottom: 0px
+}
+
+.newsletter .inputGroup .buttonContainer{
+  padding-top: 10px;
+}
+
+.newsletter .confirmationText , .newsletter .confirmationTitle{
+  color: #fff;
+}
+
+.figure{
+  padding: 10px;
+}
+
+.installmentsPrice{
+  max-width: 100%;
+}
+
+.productDescriptionContainer{
+  margin-top: 70px;
+}
+
+.skuSelectorNameContainer{
+  min-height: 45px;
+  max-height: 92px;
+  overflow: hidden;
+  padding: 4px;
+}
+
+.skuSelectorItemImage{
+  height: 27px;
+  width: 27px;
+}
+
+.frameAround{
+  width: 35px;
+  height: 35px;
+}
+
+.skuSelectorItemImageValue{
+  width: 25px;
+  height: 25px;
+}
+
+.skuSelectorSubcontainer{
+  height: 65px;
+  overflow: hidden;
+}
+
+.skuSelectorTextContainer{
+  margin: 0px;
+  height: 20px;
+}
+
+.seeMoreButton :global(.vtex-button){
+  max-width: 300px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  max-height: 10px;
+}
+
+.imageElementLink--categoryImages{
+  width: 220px;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .sellingPrice{
+    font-size: 31px;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+  .imageElement--promoImage{
+    margin: 0px auto;
+    display: block;
+    padding: 15px 0px;
+  }
+
+  .imageElement--lastColImage{
+    width: 100%;
+  }
+
+  .imageElement{
+    width: 99%;
+    height: 99%;
+  }
+
+  /* NEWSLETTER */
+  .newsletter .container{
+    padding: 10px;
+  }
+
+  .newsletter .form{
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  .newsletter .form .label{
+    max-width: 600px;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .newsletter .form .inputGroup{
+    width: 500px;
+    display: inline-block;
+    padding-top: 4px;
+    border-bottom: 0px;
+  }
+
+  .newsletter .form .inputGroup .buttonContainer{
+    display: inline-block;
+  }
+
+  .searchBarContainer {
+    max-width: 265px;
+  }
+
+  .productDescriptionTitle{
+    background: #b3b3b3;
+    color: #fff;
+    padding: 15px;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 5px;
+  }
+
+  .productDescriptionText{
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .shippingContainer :global(.vtex-address-form__postalCode){
+    width: 300px;
+    display: inline-block;
+  }
+
+  .shippingContainer :global(.vtex-button){
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 22px;
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .productDescriptionContainer{
+    margin: 70px 0px;
+  }
+  .imageElement--menuImage{
+    width: 215px;
+    height: 430px;
+  }
+
+  .imageElement--paymentMethods{
+    width: auto;
+    height: auto;
+  }
+}

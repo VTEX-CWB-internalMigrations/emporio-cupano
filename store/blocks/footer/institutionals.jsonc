@@ -1,0 +1,488 @@
+{
+  "flex-layout.col#footer-1-col-desktop": {
+    "children": [
+      "flex-layout.row#institutional-row-1",
+      "flex-layout.row#institutional-row-2"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "institutionalCol"
+    }
+  },
+  "flex-layout.row#institutional-row-1": {
+    "children": [
+      "rich-text#institutionalTitle"
+    ]
+  },
+  "rich-text#institutionalTitle": {
+    "props": {
+      "text": "Institucionais",
+      "blockClass": "InstitutionalTitle"
+    }
+  },
+  "flex-layout.row#institutional-row-2": {
+    "children": [
+      "flex-layout.col#institutionalList",
+      "flex-layout.col#institutionalList2"
+    ]
+  },
+  "flex-layout.col#institutionalList": {
+    "children": [
+      "rich-text#aboutUs",
+      "rich-text#condition",
+      "rich-text#regret",
+      "rich-text#stores",
+      "rich-text#curtains",
+      "rich-text#talkTo"
+    ]
+  },
+  "rich-text#aboutUs": {
+    "props": {
+      "text": "[Quem Somos?](https://niazi.myvtex.com/quem-somos)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#condition": {
+    "props": {
+      "text": "[Condições de Compra & Venda](https://niazi.myvtex.com/compravendacondicoes)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#regret": {
+    "props": {
+      "text": "[Arrependimento de Compra](https://niazi.myvtex.com/arrependimentodecompra)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#stores": {
+    "props": {
+      "text": "Lojas Niazi Chohfi",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#curtains": {
+    "props": {
+      "text": "[Cortinas e Persianas Sob Medida](https://niazi.myvtex.com/cortinasobmedida)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#talkTo": {
+    "props": {
+      "text": "Fale Conosco",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "flex-layout.col#institutionalList2": {
+    "children": [
+      "rich-text#privacy",
+      "rich-text#exchange",
+      "rich-text#cancelling",
+      "rich-text#mdf",
+      "rich-text#didntFind"
+    ],
+    "props": {}
+  },
+  "rich-text#privacy": {
+    "props": {
+      "text": "[Política Privacidade](https://niazi.myvtex.com/politicadeprivacidade)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#exchange": {
+    "props": {
+      "text": "[Política de Trocas](https://niazi.myvtex.com/politicadetrocas)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#cancelling": {
+    "props": {
+      "text": "[Cancelamento de Compras](https://niazi.myvtex.com/cancelamentodecompras)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#mdf": {
+    "props": {
+      "text": "[MDF na 25 de Março](https://niazi.myvtex.com/mdf25demarco)",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#didntFind": {
+    "props": {
+      "text": "Não encontrou o que procurava?",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "rich-text#doubts": {
+    "props": {
+      "text": "Dúvidas",
+      "blockClass": "institutionalLink"
+    }
+  },
+  "vtex.menu@2.x:menu#Institutional1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#condition",
+      "menu-item#regret",
+      "menu-item#stores",
+      "menu-item#curtain",
+      "menu-item#talkTo"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "props": {
+        "id": "menu-item-aboutUs",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "about-us",
+          "text": "about-us"
+        }
+      }
+    }
+  },
+  "menu-item#condition": {
+    "props": {
+      "props": {
+        "id": "menu-item-condition",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Condition",
+          "text": "Condition"
+        }
+      }
+    }
+  },
+  "menu-item#regret": {
+    "props": {
+      "props": {
+        "id": "menu-item-regret",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Regret",
+          "text": "Regret"
+        }
+      }
+    }
+  },
+  "menu-item#stores": {
+    "props": {
+      "props": {
+        "id": "menu-item-stores",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Stores",
+          "text": "Stores"
+        }
+      }
+    }
+  },
+  "menu-item#curtain": {
+    "props": {
+      "props": {
+        "id": "menu-item-curtain",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Curtain",
+          "text": "Curtain"
+        }
+      }
+    }
+  },
+  "menu-item#talkTo": {
+    "props": {
+      "props": {
+        "id": "menu-item-talkTo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Talk To",
+          "text": "Talk To"
+        }
+      }
+    }
+  },
+  "menu-item#news": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "News",
+        "text": "News"
+      }
+    }
+  },
+  "menu-item#blackfriday": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "BlackFriday",
+        "text": "Black Friday"
+      }
+    }
+  },
+  "menu-item#sale": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    }
+  },
+  "menu-item#personalization": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "Personalization"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#Institutional2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing",
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#clothing"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": [
+      "vtex.menu@2.x:menu#clothing-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#decoration"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-decoration-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sale"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-sale-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  }
+}

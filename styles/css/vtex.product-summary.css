@@ -1,0 +1,54 @@
+/* .buyButton button{
+    width: 100%;
+    border-radius: 10px;
+} */
+
+
+
+.badgeContainer--dimensoes{
+    border: 2px solid #d1d1d1;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 140px;
+}
+
+.imageContainer{
+    max-width: 245px;
+    max-height: 240px;
+}
+
+.productBrand{
+    height: 38px;
+    overflow: hidden;
+    display: block;
+}
+
+.imageNormal{
+    max-height: 240px;
+}
+
+.badgeText{
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 640px){
+    .buyButton{
+        margin: 0px 40px;
+    }
+
+    .buyButton{
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .element:hover .buyButton{
+        opacity: 1
+    }
+
+}
+
+/* .badgeContainer--dimensoes .badgeText{
+    font-size: 13px;
+} */

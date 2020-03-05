@@ -1,0 +1,394 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "image#promo",
+      "flex-layout.row#deals",
+      "flex-layout.row#deals2",
+      "shelf#home1",
+      "shelf#home2",
+      "shelf#home3",
+      "shelf#home4",
+      "rich-text#faqButton",
+      //"slider-layout#bottom",
+      "list-context.image-list#brands",
+      "newsletter"
+    ]
+  },
+  "list-context.image-list#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "blockClass": "Brands",
+      "images": [
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/001Brinox.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/001Brinox.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/002Bella.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/002Bella.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/003Dohler.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/003Dohler.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/004Karsten.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/004Karsten.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/005Multiflon.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/005Multiflon.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/006Niazitex.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/006Niazitex.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/07Oxford.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/07Oxford.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/08Santista.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/08Santista.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/09Tramontina.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/09Tramontina.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/10Mondial.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/10Mondial.png"
+        }
+      ]
+    }
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 720,
+      "showArrows": false,
+      "showDots": true,
+      "blockClass": "mainCarousel"
+    }
+  },
+  "image#promo": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/promoNiazi.png",
+      "maxWidth": "1200px",
+      "blockClass": "promoImage"
+    }
+  },
+  // ROW BANNER DEALS 1
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#space",
+      "flex-layout.col#dealsCol1",
+      "flex-layout.col#dealsCol2",
+      "flex-layout.col#space"
+    ],
+    "props": {
+      "blockClass": "rowDeals"
+    }
+  },
+  "flex-layout.col#space": {
+    "props": {
+      "width": "10%"
+    }
+  },
+  "flex-layout.col#dealsCol1": {
+    "children": [
+      "image#Eletro"
+    ],
+    "props": {
+      "width": "45%"
+    }
+  },
+  "flex-layout.col#dealsCol2": {
+    "children": [
+      "image#Servir"
+    ],
+    "props": {
+      "width": "35%"
+    }
+  },
+  "image#Eletro": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/1Eletro.jpg"
+      //"maxHeight": "290px"
+    }
+  },
+  "image#Servir": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/2Servir.jpg",
+      //"maxHeight": "290px",
+      "blockClass": "lastColImage"
+    }
+  },
+  //ROW BANNER DEALS 2
+  "flex-layout.row#deals2": {
+    "children": [
+      "flex-layout.col#space",
+      "flex-layout.col#dealsCol3",
+      "flex-layout.col#dealsCol4",
+      "flex-layout.col#space"
+    ],
+    "props": {
+      "blockClass": "rowDeals"
+    }
+  },
+  "flex-layout.col#dealsCol3": {
+    "children": [
+      "image#Infantil"
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#dealsCol4": {
+    "children": [
+      "image#Belga"
+    ],
+    "props": {
+      "width": "55%"
+    }
+  },
+  "image#Infantil": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/3Linhas.jpg"
+      //"maxHeight": "280px"
+    }
+  },
+  "image#Belga": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/4Tapetes.jpg",
+      //"maxHeight": "280px",
+      "blockClass": "lastColImage"
+    }
+  },
+  // SHELF 1
+  "shelf#home1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "OS QUERIDINHOS "
+      }
+    }
+  },
+  //SHELF 2
+  "shelf#home2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "PRODUTOS QUE SÃO SUCESSO DE VENDAS"
+      }
+    }
+  },
+  // SHELF 3
+  "shelf#home3": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "DESTAQUES"
+      }
+    }
+  },
+  // SHELF 4
+  "shelf#home4": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "TAPETES"
+      }
+    }
+  },
+  "slider-layout#brands": {
+    "props": {
+      "blockClass": "brandsSlider",
+      "infinite": true,
+      "showNavigationArrows": "always"
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/001Brinox.png",
+      "link": "/brinox"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/002Bella.png",
+      "link": "/bella-janela"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/003Dohler.png",
+      "link": "/dohler"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/004Karsten.png",
+      "link": "/karsten"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/005Multiflon.png",
+      "link": "/multiflon"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/006Niazitex.png",
+      "link": "/niazitex"
+    }
+  },
+  "image#brand7": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/07Oxford.png",
+      "link": "/oxford"
+    }
+  },
+  "image#brand8": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/08Santista.png",
+      "link": "/santista"
+    }
+  },
+  "image#brand9": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/09Tramontina.png",
+      "link": "/tramontina"
+    }
+  },
+  "image#brand10": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/10Mondial.png",
+      "link": "/mondial"
+    }
+  },
+  // ////////////////////////////////////////
+  "rich-text#01": {
+    "props": {
+      "text": "[![Brinox](https://niazi.vteximg.com.br/arquivos/001Brinox.png 'Brinox')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#02": {
+    "props": {
+      "text": "[![Bella](https://niazi.vteximg.com.br/arquivos/002Bella.png 'Bella')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#03": {
+    "props": {
+      "text": "[![Dohler](https://niazi.vteximg.com.br/arquivos/003Dohler.png 'Dohler')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#04": {
+    "props": {
+      "text": "[![Karsten](https://niazi.vteximg.com.br/arquivos/004Karsten.png 'Karsten')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#05": {
+    "props": {
+      "text": "[![Multiflon](https://niazi.vteximg.com.br/arquivos/005Multiflon.png 'Multiflon')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#06": {
+    "props": {
+      "text": "[![Niazitex](https://niazi.vteximg.com.br/arquivos/006Niazitex.png 'Niazitex')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#07": {
+    "props": {
+      "text": "[![Oxford](https://niazi.vteximg.com.br/arquivos/07Oxford.png 'Oxford')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#08": {
+    "props": {
+      "text": "[![Santista](https://niazi.vteximg.com.br/arquivos/08Santista.png 'Santista')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#09": {
+    "props": {
+      "text": "[![Tramontina](https://niazi.vteximg.com.br/arquivos/09Tramontina.png 'Tramontina')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#10": {
+    "props": {
+      "text": "[![Mondial](https://niazi.vteximg.com.br/arquivos/10Mondial.png 'Mondial')](http://niazi.myvtex.com.br/)",
+      "blockClass": "brandSliderItem"
+    }
+  },
+  "rich-text#faqButton": {
+    "props": {
+      "text": "[![Não encontrou?](https://niazi.vteximg.com.br/arquivos/lupa.png)](https://niazi.myvtex.com/) [Não conseguiu achar o que procurava?](https: //niazi.myvtex.com/)",
+      "blockClass": "faqButton"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "label": "Cadastre-se e receba nossas ofertas!"
+    }
+  }
+}

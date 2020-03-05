@@ -1,0 +1,11 @@
+.galleryTitle--layout{
+    display: none;
+}
+
+.buttonShowMore{
+    margin: 50px 0px;
+}
+
+.buttonShowMore :global(.vtex-button){
+    padding: 12px;
+}

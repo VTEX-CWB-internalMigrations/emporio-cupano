@@ -1,0 +1,265 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#all",
+      "menu-item#carpet",
+      "menu-item#ud",
+      "menu-item#bed",
+      "menu-item#table",
+      "menu-item#bath",
+      "menu-item#decoration",
+      "menu-item#toys",
+      "menu-item#christmas"
+    ],
+    "props": {
+      "blockClass": "mainMenu"
+    }
+  },
+  // ----------------- ALL ITEM -------------------
+  "menu-item#all": {
+    "props": {
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Todos os Departamentos",
+        "text": "VER TUDO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ]
+  },
+  "vtex.menu@2.x:submenu#all-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain",
+      "image#categoriesImage"
+    ],
+    "props": {
+      "blockClass": "allSubmenuBlock"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuMain": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "image#categoriesImage": {
+    "props": {
+      "blockClass": "categoryImages"
+    }
+  },
+  // ------------ CARPET ITEM -----------------
+  "menu-item#carpet": {
+    "props": {
+      "id": "menu-item-category-carpet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes",
+        "text": "TAPETES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ]
+  },
+  "image#carpetImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/tapetes-menu-image.png",
+      "alt": "Imagem de redirecionamento para página de tapetes",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  // --------------------- UD ITEM --------------------------
+  "menu-item#ud": {
+    "props": {
+      "id": "menu-item-category-ud",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD",
+        "text": "UD"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ]
+  },
+  "image#udImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/ud-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de UD",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  // ----------- BED ITEM ------------------
+  "menu-item#bed": {
+    "props": {
+      "id": "menu-item-category-bed",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cama",
+        "text": "CAMA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ]
+  },
+  "image#bedImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/bed-menu-image1.jpg",
+      "alt": "Imagem de redirecionamento para página de Camas",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  // ------------ TABLE ITEM -----------------
+  "menu-item#table": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-table",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Mesa",
+        "text": "MESA"
+      }
+    }
+  },
+  "image#tableImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/table-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de Camas",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  // ----------- BATH ITEM ------------------
+  "menu-item#bath": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-bath",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Banho",
+        "text": "BANHO"
+      }
+    }
+  },
+  "image#bathImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/bath-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de Camas",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  // ------------ DECORATION ITEM ---------------
+  "menu-item#decoration": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "DECORAÇÃO",
+        "text": "DECORAÇÃO"
+      }
+    }
+  },
+  "image#decorationImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/decoration-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de Decoração",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  // ----------- TOYS ITEM ---------------
+  "menu-item#toys": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-toys",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "BRINQUEDOS",
+        "text": "BRINQUEDOS"
+      }
+    }
+  },
+  // --------------- CHRISTMAS ITEM -------------
+  "menu-item#christmas": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-christmas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "NATAL",
+        "text": "NATAL"
+      }
+    }
+  },
+  "image#christmasImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/christmas-menu-image1.jpg",
+      "alt": "Imagem de redirecionamento para página de Natal",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  }
+}

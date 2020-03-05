@@ -1,0 +1,19 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout{
+  border-top: 2px solid #cd353a;
+  margin-top: 50px;
+}
+
+
+

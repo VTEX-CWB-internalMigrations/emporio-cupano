@@ -1,0 +1,111 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "logo#desktop",
+      "search-bar",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://niazi.vteximg.com.br/arquivos/logoNiazi.png",
+      "width": "100"
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "iconLabel": "Carrinho",
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#category-menu",
+      "header-spacer"
+    ],
+    "props": {
+      "blockClass": "main-menu"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "header-row#2mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {}
+  },
+  "menu#drawer": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "login": {
+    "children": [],
+    "props": {}
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+}

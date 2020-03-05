@@ -1,0 +1,97 @@
+{
+    "store.custom#institutional2": {
+        "blocks": [
+            "flex-layout.row#institutional-store1",
+            "flex-layout.row#institutional-store2",
+            "flex-layout.row#institutional-store3",
+            "flex-layout.row#institutional-store4",
+            "flex-layout.row#institutional-store5",
+            "flex-layout.row#institutional-store6",
+            "flex-layout.row#institutional-store7",
+            "flex-layout.row#institutional-store8",
+            "flex-layout.row#institutional-store9",
+            "flex-layout.row#institutional-store10"
+        ]
+    },
+    "flex-layout.row#institutional-store1": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store2": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store3": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store4": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store5": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store6": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store7": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store8": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store9": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.row#institutional-store10": {
+        "children": [
+            "flex-layout.col#institutional-storeCol",
+            "flex-layout.col#institutional-storeCol2"
+        ]
+    },
+    "flex-layout.col#institutional-storeCol": {
+        "children": [
+            "rich-text#storeText"
+        ]
+    },
+    "flex-layout.col#institutional-storeCol2": {
+        "children": [
+            "rich-text#storeImage"
+        ]
+    },
+    "rich-text#storeText": {
+        "props": {
+            "text": "SEU TEXTO AQUI"
+        }
+    },
+    "rich-text#storeImage": {
+        "props": {
+            "text": "SEU TEXTO AQUI",
+            "blockClass": "storeImage"
+        }
+    }
+}

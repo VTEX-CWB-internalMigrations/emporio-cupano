@@ -1,0 +1,16 @@
+.containerImg {
+  background-color: #fff;
+}
+
+.containerImg .img--mainCarousel{
+  max-width: 1520px;
+} 
+
+.dot{
+  height: 20px;
+  width: 20px;
+}
+
+.activeDot{
+  background-color: #73b2af;
+}

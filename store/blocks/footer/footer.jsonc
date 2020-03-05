@@ -1,0 +1,229 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "footer-spacer",
+      //you can find the first footer column in institutional.jsonc file 
+      "flex-layout.col#footer-1-col-desktop",
+      //
+      "flex-layout.col#footer-2-col-desktop",
+      "flex-layout.col#footer-3-col-desktop",
+      "footer-spacer"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  //---------- SECOND COLUMN DESKTOP FOOTER -------------
+  "flex-layout.col#footer-2-col-desktop": {
+    "children": [
+      "flex-layout.row#footer-paymentRow",
+      "flex-layout.row#footer-securityRow"
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  //FOOTER PAYMENT BOX
+  "flex-layout.row#footer-paymentRow": {
+    "children": [
+      "flex-layout.col#footer-paymentTitle",
+      "image#payment-methods"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#footer-paymentTitle": {
+    "children": [
+      "flex-layout.row#footer-paymentTitle1",
+      "flex-layout.row#footer-paymentTitle2"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#footer-paymentTitle1": {
+    "children": [
+      "rich-text#institutionalPayment"
+    ]
+  },
+  "flex-layout.row#footer-paymentTitle2": {
+    "children": [
+      "image#payment-methods"
+    ]
+  },
+  "rich-text#institutionalPayment": {
+    "props": {
+      "text": "Formas de Pagamento",
+      "blockClass": "InstitutionalTitle"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
+    }
+  },
+  //FOOTER SECURITY BOX
+  "flex-layout.row#footer-securityRow": {
+    "children": [
+      "flex-layout.col#footer-securityCol"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#footer-securityCol": {
+    "children": [
+      "flex-layout.row#footer-securityRow1",
+      "flex-layout.row#footer-securityRow2"
+    ]
+  },
+  "flex-layout.row#footer-securityRow1": {
+    "children": [
+      "rich-text#institutionalSecurity"
+    ]
+  },
+  "rich-text#institutionalSecurity": {
+    "props": {
+      "text": "Segurança",
+      "blockClass": "InstitutionalTitle"
+    }
+  },
+  "flex-layout.row#footer-securityRow2": {
+    "children": [
+      "rich-text#securityImages",
+      "rich-text#securityImages2"
+    ]
+  },
+  "rich-text#securityImages": {
+    "props": {
+      "text": "security images here",
+      "blockClass": "encrypt"
+    }
+  },
+  "rich-text#securityImages2": {
+    "props": {
+      "text": "eBit Here",
+      "blockClass": "encrypt"
+    }
+  },
+  "flex-layout.col#footer-3-col-desktop": {
+    "children": [
+      "rich-text#likebox",
+      "social-networks"
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "rich-text#likebox": {
+    "props": {
+      "text": "oi"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {}
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Telefones: (11) 3322-6565 R: 245 | E-mail: sac@niazi.com.br",
+      "blockClass": "footerInfo"
+    }
+  },
+  //------------ MOBILE LAYOUT ------------
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "image#payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "image#payment-methods": {
+    "props": {
+      "src": "",
+      "blockClass": "paymentMethods"
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "flex-layout.row#institutionalMobile"
+    ]
+  },
+  "flex-layout.row#institutionalMobile": {
+    "children": [
+      "flex-layout.row#institutional-row-1",
+      "flex-layout.row#institutional-row-2"
+    ]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Niazi Chohfi - CNPJ 06.976.612/0005-24 Rua Cavalheiro Basilio Jafet, 94 - Centro , São Paulo/SP CEP: 01022-020",
+      "blockClass": "footer"
+    }
+  }
+}

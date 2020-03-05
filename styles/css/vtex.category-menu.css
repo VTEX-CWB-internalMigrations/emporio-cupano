@@ -1,0 +1,49 @@
+
+.itemContainer{
+    height: 50px;
+    z-index: 9999;
+    max-height: none;
+    padding: 0 17px;
+    display: block;
+    text-align: center;
+    color: #959595;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.itemContainer .firstLevelLink{
+    display: block;
+    font-size: 13px;
+    color: #959595;
+    font-weight: bold;
+    text-align: left;
+}
+.itemContainer .itemContainer{
+    height: auto;
+    background: #f5f5f5;
+}
+
+.itemContainer{
+    max-height: none;
+}
+
+@media only screen and (min-width: 640px) {
+    .container{
+        height: 50px;
+        overflow: hidden;
+        z-index: 99;
+    }
+
+    .itemContainer .secondLevelLink{
+        display: none;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .container{
+        display: flex;
+    }
+    
+    .itemContainer{
+        width: 100%
+    }
+}

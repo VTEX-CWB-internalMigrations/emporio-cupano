@@ -1,0 +1,17 @@
+.menuContainer--mainMenu .menuItem{
+    border-right: 1px solid #d1d1d1;
+    margin: 5px 0px;
+}
+
+.menuContainer--mainsubmenu .menuItem{
+    border: none;
+}
+
+.submenu{
+    border-left: 2px solid #dbdbdb;
+    border-right: 2px solid #dbdbdb;
+}
+
+.submenuWrapper--allSubmenuBlock{
+    left: -50%
+}

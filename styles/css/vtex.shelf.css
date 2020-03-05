@@ -1,0 +1,75 @@
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #ee3437;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title::before{
+    content: "";
+    background: url(https://niazi.vteximg.com.br/arquivos/estrelaNiazi.png) no-repeat;
+    width: 32px;
+    height: 30px;
+    display: block;
+    margin: 0px 15px;
+}
+
+.title::after{
+    content: "";
+    background: url(https://niazi.vteximg.com.br/arquivos/estrelaNiazi.png) no-repeat;
+    width: 32px;
+    height: 30px;
+    display: block;
+    margin: 0px 15px;
+}
+
+.arrowRight , .arrowLeft{
+    background: #cecece;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.caretIcon--sizes{
+    width: 15px;
+    height: 15px;
+}
+
+.relatedProducts .title{
+    display: none;
+}
+
+/* .relatedProducts--sizes :global(.justify-center){
+    justify-content: left;
+} */
+
+.relatedProducts.relatedProducts--sizes .title--sizes{
+    display: block;
+    font-size: 14px;
+    color: #767273;
+    padding: 0px;
+    font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 400;
+}
+.title--sizes::after{
+    display: none
+}
+.title--sizes::before{
+    display: none
+}
+
+.container{
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+    .title{
+        font-size: 25px;  
+    }
+    .arrowRight--sizes{
+        margin-right: 0px;
+    }
+    
+    .arrowLeft--sizes{
+        margin-left: 0px;
+    }
+}

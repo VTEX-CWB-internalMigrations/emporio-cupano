@@ -1,0 +1,10 @@
+.container .cartIcon{
+    color: #cd353a;
+    width: 22px;
+    height: 22px;
+}
+@media only screen and (max-width: 640px) {
+    .label{
+        display: none;
+    }
+}

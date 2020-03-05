@@ -1,0 +1,23 @@
+{
+    "store.custom#institutional1": {
+        "blocks": [
+            "flex-layout.row#institutional1"
+        ]
+    },
+    "flex-layout.row#institutional1": {
+        "children": [
+            "flex-layout.col#institutional1"
+        ]
+    },
+    "flex-layout.col#institutional1": {
+        "children": [
+            "rich-text#institutionalMain"
+        ]
+    },
+    "rich-text#institutionalMain": {
+        "props": {
+            "text": "SEU TEXTO AQUI",
+            "blockClass": "Institutional1Box"
+        }
+    }
+}

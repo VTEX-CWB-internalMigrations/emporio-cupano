@@ -1,0 +1,21 @@
+.label::before{
+    content: "";
+    background-image: url(https://niazi.vteximg.com.br/arquivos/loginNiazi2.png);
+    width: 30px;
+    height: 22px;
+    background-size: 22px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.label{
+    display: block;
+}
+.profile{
+    display: block;
+}
+@media only screen and (max-width: 640px) {
+    .label{
+        display: block;
+        font-size: 0px;
+    }
+}
