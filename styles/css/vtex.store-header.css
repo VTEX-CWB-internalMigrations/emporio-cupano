@@ -3,6 +3,9 @@
   font-size: 14px;
 }
 
+.headerRowBackground--main-header{
+  padding-top: 15px;
+}
 
 .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
   color: #727273;
