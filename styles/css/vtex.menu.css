@@ -1,15 +1,24 @@
 .menuContainer--mainMenu .menuItem{
-    border-right: 1px solid #d1d1d1;
     margin: 5px 0px;
+    margin: 5px 0px;
+    max-height: 45px;
+}
+
+.styledLinkContent--mainSubmenu{
+    color: #fff;
+}
+
+.styledLinkContainer--mainSubmenu{
+    max-height: 45px;
+    padding: 0.8rem;
+}
+
+.submenuWrapper{
+    width: 100%;
 }
 
 .menuContainer--mainsubmenu .menuItem{
     border: none;
-}
-
-.submenu{
-    border-left: 2px solid #dbdbdb;
-    border-right: 2px solid #dbdbdb;
 }
 
 .submenuWrapper--allSubmenuBlock{

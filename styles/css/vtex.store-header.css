@@ -18,6 +18,12 @@
 }
 
 .headerRow--main-menu{
-  padding-bottom: 10px;
+  padding-top: 15px;
+}
 
+.headerRowBackground--main-menu{
+  max-height: 45px;
+}
+.headerRowContentContainer--main-menu{
+  max-height: 45px;
 }

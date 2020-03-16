@@ -62,7 +62,8 @@
       "header-spacer"
     ],
     "props": {
-      "blockClass": "main-menu"
+      "blockClass": "main-menu",
+      "inverted": true
     }
   },
   "header-layout.mobile": {
