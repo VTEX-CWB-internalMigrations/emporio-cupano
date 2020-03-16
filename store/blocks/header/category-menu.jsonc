@@ -28,9 +28,6 @@
     }
   },
   "menu-item#suplementos":{
-    "blocks":[
-      "vtex.menu@2.x:submenu#mainSubmenu"
-    ],
     "props":{
       "blockClass": "mainSubmenu",
       "id": "menu-item-suplementos",

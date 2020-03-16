@@ -5,17 +5,22 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "image#promo",
-      "flex-layout.row#deals",
-      "flex-layout.row#deals2",
+      //"flex-layout.row#deals",
+      //"flex-layout.row#deals2",
       "shelf#home1",
+      "image#middleBanner",
       "shelf#home2",
-      "shelf#home3",
-      "shelf#home4",
       "rich-text#faqButton",
       //"slider-layout#bottom",
       //"list-context.image-list#brands",
       "newsletter"
     ]
+  },
+  "image#middleBanner":{
+    "props":{
+      "blockClass": "middleBanner",
+      "src": ""
+    }
   },
   "list-context.image-list#brands": {
     "children": [
@@ -213,42 +218,6 @@
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "PRODUTOS QUE SÃO SUCESSO DE VENDAS"
-      }
-    }
-  },
-  // SHELF 3
-  "shelf#home3": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "DESTAQUES"
-      }
-    }
-  },
-  // SHELF 4
-  "shelf#home4": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "TAPETES"
       }
     }
   },

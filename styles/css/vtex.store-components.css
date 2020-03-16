@@ -146,6 +146,12 @@
   width: 100%;
 }
 
+.imageElement--middleBanner{
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;

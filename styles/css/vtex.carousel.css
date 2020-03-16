@@ -6,6 +6,11 @@
   max-width: 1520px;
 } 
 
+.imgRegular--mainCarousel{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
 .dot{
   height: 20px;
   width: 20px;

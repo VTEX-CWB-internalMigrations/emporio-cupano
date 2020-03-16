@@ -4,6 +4,10 @@
 .profile{
     display: block;
 }
+
+.profileIcon{
+    color: #c32723;
+}
 @media only screen and (max-width: 640px) {
     .label{
         display: block;

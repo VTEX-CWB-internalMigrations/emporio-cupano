@@ -99,7 +99,9 @@
   },
   "login": {
     "children": [],
-    "props": {}
+    "props": {
+      "showIconProfile": true
+    }
   },
   "logo#mobile": {
     "props": {
