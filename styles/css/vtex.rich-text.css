@@ -111,6 +111,10 @@
   margin: 0px;
 }
 
+.container--likeboxIframe .paragraph{
+  font-size: 0px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

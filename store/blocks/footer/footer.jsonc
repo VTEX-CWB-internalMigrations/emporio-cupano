@@ -130,7 +130,8 @@
   },
   "rich-text#likebox": {
     "props": {
-      "text": "oi"
+      "text": "YOUT LIKE BOX HERE",
+      "blockClass": "likeboxIframe"
     }
   },
   "social-networks": {
