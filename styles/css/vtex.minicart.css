@@ -4,6 +4,14 @@
     color: #c32723;
 }
 
+.openIconContainer{
+    padding: 0px;
+}
+
+.container :global(.vtex-button__label){
+    padding: 0px 15px;
+}
+
 
 @media only screen and (max-width: 640px) {
     .label{
