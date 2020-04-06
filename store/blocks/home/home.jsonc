@@ -191,6 +191,7 @@
       "product-summary.shelf"
     ],
     "props": {
+      "category": "11/21",
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
@@ -209,6 +210,7 @@
       "product-summary.shelf"
     ],
     "props": {
+      "category": "3",
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
