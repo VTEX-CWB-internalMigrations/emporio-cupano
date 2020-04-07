@@ -159,6 +159,15 @@
     max-width: 100%;
   }
 
+  .shareLabel{
+    margin-left: 150px;
+  }
+
+  .shareButtons{
+    margin-left: 150px;
+  }
+
+
   .label {
     font-size: 40px;
   }
@@ -262,7 +271,6 @@
     width: 200px;
     font-size: 12px;
   }
-
   .productDescriptionContainer{
     margin: 70px 0px;
   }
@@ -270,7 +278,6 @@
     width: 215px;
     height: 430px;
   }
-
   .imageElement--paymentMethods{
     width: auto;
     height: auto;
