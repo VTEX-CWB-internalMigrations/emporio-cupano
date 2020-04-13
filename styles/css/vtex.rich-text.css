@@ -106,6 +106,10 @@
   padding: 0px 5px;
 }
 
+.paragraph--whatsappIcon{
+  margin: 5px 20px 0px 0px;
+}
+
 .paragraph--inCash{
   color: #5fa556;
   margin: 0px;
@@ -119,6 +123,12 @@
   padding: 50px 50px;
   margin: 0px auto;
   max-width: 1250px;
+}
+
+.link--whatsappIcon{
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 @media only screen and (min-width: 640px) {

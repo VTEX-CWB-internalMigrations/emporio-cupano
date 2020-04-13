@@ -13,9 +13,46 @@
   },
   "header-layout.desktop": {
     "children": [
+      "header-row#whatsapp",
       "header-row#1-desktop",
       "header-row#2-desktop"
     ]
+  },
+  "flex-layout.row#whatsapp":{
+    "children":[
+      "flex-layout.col#whatsapp"
+    ],
+    "props":{
+      "blockClass": "whatsappRow"
+    }
+  },
+  "flex-layout.col#whatsapp":{
+    "children":[
+      "image#whatsApp",
+      "rich-text#whatsappText"
+    ]
+  },
+  "image#whatsApp":{
+    "props":{
+      "src": "https://emporiocupano.vteximg.com.br/arquivos/whatsappIcon.png",
+      "blockClass": "whatsappClass"
+    }
+  },
+  "rich-text#whatsappText":{
+    "props":{
+      "text": "[ATENDIMENTO **WHATSAPP**](https://api.whatsapp.com/send?phone=5541997350950).",
+      "blockClass": "whatsappIcon"
+    }
+  },
+  "header-row#whatsapp":{
+    "children":[
+      "header-spacer",
+      "image#whatsApp",
+      "rich-text#whatsappText"
+    ],
+    "props":{
+      "blockClass": "whatsappRow"
+    }
   },
   "header-row#1-desktop": {
     "children": [

@@ -27,3 +27,8 @@
 .headerRowContentContainer--main-menu{
   max-height: 45px;
 }
+
+.headerStickyRow--whatsappRow{
+  height: auto;
+  max-height: 25px;
+}

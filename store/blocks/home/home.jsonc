@@ -200,7 +200,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "OS QUERIDINHOS "
+        "titleText": "TINTURAS E EXTRATOS"
       }
     }
   },
@@ -219,7 +219,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "PRODUTOS QUE SÃO SUCESSO DE VENDAS"
+        "titleText": "ENCAPSULADOS PARA AJUDAR NA SUA SAÚDE"
       }
     }
   },
