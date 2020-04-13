@@ -70,19 +70,34 @@
       "product-separator",
       "product-price#product-details",
       "rich-text#in-cash",
-      "product-quantity",
-      "shelf.relatedProducts#first",
       "sku-selector",
       "product-assembly-options",
       "flex-layout.row#buy-button",
+      "flex-layout.row#productBuy",
+      "rich-text#tinturas",
       "availability-subscriber",
       "shipping-simulator"
     ]
+  },      
+  "flex-layout.row#productBuy":{
+    "children":[
+      "product-quantity",
+      "buy-button"
+    ],
+    "props":{
+      "blockClass": "buyButtonBox"
+    }
   },
   "rich-text#in-cash": {
     "props": {
       "blockClass": "inCash",
       "text": "5% de desconto no BOLETO"
+    }
+  },
+  "rich-text#tinturas":{
+    "props":{
+      "blockClass": "tinturas",
+      "text": "Nossas tinturas levam 15 dias em produção"
     }
   },
   "sku-selector": {
@@ -112,7 +127,7 @@
       "width": "50%"
     },
     "children": [
-      "buy-button"
+
     ]
   },
   "share#default": {

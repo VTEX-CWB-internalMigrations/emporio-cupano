@@ -1,10 +1,9 @@
 .title{
-    font-family: open;
-    font-weight: lighter;
-    font-size: 30px;
+    font: lighter 9px/0px Open, sans-serif;
+    font-size: 25px;
     text-align: left;
     display: block;
-    margin: 0px 70px;
+    color: #000;
 }
 
 .arrowRight , .arrowLeft{
@@ -25,6 +24,12 @@
 /* .relatedProducts--sizes :global(.justify-center){
     justify-content: left;
 } */
+
+.container{
+    padding-bottom: 40px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
 
 .relatedProducts.relatedProducts--sizes .title--sizes{
     display: block;

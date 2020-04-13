@@ -50,9 +50,10 @@
 
 .sellingPrice{
   font-weight: 400;
-  color: #cf872e;
-  font-family: Impact;
+  font-family: Open;
+  font-weight: bold;
   font-size: 20px;
+  padding: 0px;
 }
 
 .listPriceLabel , .listPriceValue{
@@ -159,19 +160,22 @@
   max-height: 25px;
 }
 
+.shareContainer{
+  height: 100%;
+  width: 600px;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+
+.productBrand--productPage{
+  font-weight: bold;
+}
+
+
 @media only screen and (min-width: 640px) {
   .logoImage{
     max-width: 100%;
   }
-
-  .shareLabel{
-    margin-left: 150px;
-  }
-
-  .shareButtons{
-    margin-left: 150px;
-  }
-
 
   .label {
     font-size: 40px;

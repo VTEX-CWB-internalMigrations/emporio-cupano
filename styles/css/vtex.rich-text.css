@@ -131,6 +131,22 @@
   font-size: 13px;
 }
 
+.paragraph--tinturas{
+  margin: 0px;
+
+}
+
+.container--tinturas{
+  margin: 0px;
+  padding: 10px 0px;
+  border-top: 1px solid #e3e4e6;
+  border-bottom: 1px solid #e3e4e6;
+  font-size: 15px;
+  margin-bottom: 25px;
+  width: 98%;
+  display: flex;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
