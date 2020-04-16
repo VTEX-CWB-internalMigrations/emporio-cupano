@@ -20,10 +20,32 @@
   },
   "flex-layout.row#whatsapp":{
     "children":[
+      "image#facebookTop",
+      "image#instagramTop",
       "flex-layout.col#whatsapp"
     ],
     "props":{
       "blockClass": "whatsappRow"
+    }
+  },
+  "flex-layout.col#socialTop":{
+    "children":[
+      "image#facebookTop",
+      "image#instagramTop",
+      "image#whatsApp",
+      "rich-text#whatsappText"
+    ]
+  },
+  "image#facebookTop":{
+    "props":{
+      "src": "https://emporiocupano.vteximg.com.br/arquivos/facebookIcon.png",
+      "blockClass": "socialTop"
+    }
+  },
+  "image#instagramTop":{
+    "props":{
+      "src": "https://emporiocupano.vteximg.com.br/arquivos/instagramIcon.png",
+      "blockClass": "socialTop"
     }
   },
   "flex-layout.col#whatsapp":{
@@ -47,6 +69,8 @@
   "header-row#whatsapp":{
     "children":[
       "header-spacer",
+      "image#facebookTop",
+      "image#instagramTop",
       "image#whatsApp",
       "rich-text#whatsappText"
     ],

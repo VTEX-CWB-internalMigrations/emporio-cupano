@@ -9,3 +9,7 @@
 .buttonShowMore :global(.vtex-button){
     padding: 12px;
 }
+
+.buttonShowMore{
+    margin-bottom: 50px;
+}

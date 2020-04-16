@@ -171,6 +171,12 @@
   font-weight: bold;
 }
 
+.imageElement--socialTop{
+  max-width: 35px;
+  max-height: 35px;
+  padding-right: 12px;
+}
+
 
 @media only screen and (min-width: 640px) {
   .logoImage{

@@ -43,6 +43,7 @@
       "product-summary-sku-selector",
       "product-summary-space",
       "product-summary-price",
+      "product-summary-description",
       // "product-identifier.summary",
       "product-summary-buy-button"
     ]
