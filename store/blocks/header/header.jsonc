@@ -39,12 +39,14 @@
   "image#facebookTop":{
     "props":{
       "src": "https://emporiocupano.vteximg.com.br/arquivos/facebookIcon.png",
+      "link": "https://www.facebook.com/emporiocupano",
       "blockClass": "socialTop"
     }
   },
   "image#instagramTop":{
     "props":{
       "src": "https://emporiocupano.vteximg.com.br/arquivos/instagramIcon.png",
+      "link": "https://instagram.com/emporiocupano",
       "blockClass": "socialTop"
     }
   },
