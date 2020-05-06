@@ -130,7 +130,7 @@
   },
   "rich-text#likebox": {
     "props": {
-      "text": "YOUT LIKE BOX HERE",
+      "text": "YOUR LIKE BOX HERE",
       "blockClass": "likeboxIframe"
     }
   },

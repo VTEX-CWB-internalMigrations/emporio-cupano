@@ -35,7 +35,9 @@
 
 .description{
     text-align: left;
-    padding: 0px 42px;
+    padding: 0px 45px;
+    max-height: 30px;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 640px){

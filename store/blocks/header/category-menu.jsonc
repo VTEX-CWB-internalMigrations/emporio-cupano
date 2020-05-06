@@ -1,8 +1,8 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#insumos",
-      "menu-item#suplementos"
+      "menu-item#insumos"
+      //"menu-item#suplementos"
     ],
     "props": {
       "blockClass": "mainMenu"
